@@ -1,0 +1,39 @@
+### LIST all users
+GET http://localhost:5000/users
+
+### SEARCH all users
+GET http://localhost:5000/users?name_like=Mi&phone_like=06
+
+### SEARCH & SORT all users
+GET http://localhost:5000/users?name_like=M&phone_like=06&_sort=name&_order=asc
+
+### CREATE a new user
+POST http://localhost:5000/users
+Content-Type: application/json
+
+ {
+    "name": "Mirko",
+    "email": "mirko@test.com",
+    "phone": "060666999",
+    "country": "Moldova",
+    "activity":"active"
+  }
+
+### UPDATE an existing user
+PUT http://localhost:5000/users/4
+Content-Type: application/json
+
+ {
+    "name": "Mirko",
+    "email": "mirkooo@test.com",
+    "phone": "060666999",
+    "country": "Moldova",
+    "activity":"inactive"
+  }
+
+
+### GET a particular user
+GET http://localhost:5000/users/12
+
+### DELETE a particular user
+DELETE  http://localhost:5000/users/4

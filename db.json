@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "name": "Miljana",
+      "email": "miljana@test.com",
+      "phone": "060669669",
+      "country": "Austria",
+      "activity": 1,
+      "createdAt": "2022-08-09T08:42:41+0100",
+      "id": 12,
+      "updatedAt": "2022-08-15T18:49:04.992Z"
+    },
+    {
+      "name": "Viktorija",
+      "email": "viki@test.com",
+      "phone": "067777999",
+      "country": "Serbia",
+      "activity": 1,
+      "createdAt": "2022-08-14T16:22:19+0100",
+      "id": 16
+    },
+    {
+      "name": "Alex",
+      "email": "alex@test.com",
+      "phone": "060554477",
+      "country": "Serbia",
+      "activity": 1,
+      "createdAt": "2022-08-14T15:49:58.202Z",
+      "id": 17
+    },
+    {
+      "name": "Mrkii",
+      "email": "mrki@test.com",
+      "phone": "066666666",
+      "address": "",
+      "country": "Serbia",
+      "activity": 0,
+      "createdAt": "2022-08-15T18:38:15.879Z",
+      "id": 18,
+      "updatedAt": "2022-08-16T19:34:28.422Z"
+    }
+  ]
+}
